@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "celery-worker"
+version = "0.1.0"
+description = ""
+authors = ["Brayden Williams <1311325+redstar504@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+celery = "^5.3.6"
+redis = "^5.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
